@@ -1,0 +1,14 @@
+/*---------------------------------Table*/
+
+table{
+	width:100%
+	border-collapse: collapse;
+}
+
+th, td{
+	padding:15px;
+}
+
+h1{
+	color:blue;
+}
