@@ -1,14 +1,104 @@
+/*---------------------------------Navigation*/
+
+nav{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+nav a{
+	padding-right: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	color:#111111;
+	font-size: 14px;
+}
+
+nav a:hover{
+	
+}
+
+/*---------------------------------Image*/
+.image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 6.0s;
+  animation-name: fade;
+  animation-duration: 6.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+
+/*---------------------------------Service-title*/
+.service-title{
+	padding-bottom: 30px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+	color:#111111;
+}
+
 /*---------------------------------Table*/
+
+.price-list{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 
 table{
 	width:100%
 	border-collapse: collapse;
+	padding-bottom: 50px;
 }
 
 th, td{
 	padding:15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size: 24px;
 }
 
 h1{
 	color:blue;
+}
+
+
+
+/*---------------------------------Footer*/
+footer{
+	padding-top:100px;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	color:#111111;
+	padding-left: 10%;
+}
+
+.foot, .foot-text{
+	text-align: center;
+
+}
+
+.foot-text{
+	padding-bottom: 20px;
 }

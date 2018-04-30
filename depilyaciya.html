@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Депиляция</title>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/gif/png" href="../img/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:300,400,600,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+ </head>
+<body>
+  <div class="container">
+    <nav>
+         <a href ="http://diana-keratin.kz/">Главная</a>
+         <a href="">Наши услуги </a>
+      </nav>
+
+    <div class="jumbotron">
+      <div class="w3-content w3-section image" style="max-width:500px">
+         <img class="mySlides fade img-responsive" src="img/barbershop2.jpg" style="width:100%">
+         <img class="mySlides fade img-responsive" src="img/barbershop1.jpg" style="width:100%">
+         
+      </div>
+      <!--<div class="image"> <img src="img/barbershop2.jpg" class="img-responsive" alt="Image"> </div>-->
+      
+    </div>
+
+    <div class="price-list">
+      <h1 class="service-title">Депиляция</h1>
+    <table>
+        <tr >
+        <th class="name"></th>
+        <th class="price">Воск</th>
+        <th class="price">Шугаринг</th>
+      </tr>
+
+      <tr >
+        <th class="name">Классическое бикини</th>
+        <th class="price">2500</th>
+        <th class="price">3000</th>
+      </tr>
+
+      <tr >
+        <th class="name">Глубокое бикини</th>
+        <th class="price">3500</th>
+        <th class="price">4000</th>
+      </tr>
+
+      <tr >
+        <th class="name">Ноги полностью</th>
+        <th class="price">3000</th>
+        <th class="price">5000</th>
+      </tr>
+
+      <tr >
+        <th class="name">Ноги до колена</th>
+        <th class="price">2000</th>
+        <th class="price">3000</th>
+      </tr>
+
+      <tr >
+        <th class="name">Руки полностью</th>
+        <th class="price">2300</th>
+        <th class="price">2500</th>
+      </tr>
+
+       <tr >
+        <th class="name">Руки до локтя/th>
+        <th class="price">1500</th>
+        <th class="price">2500</th>
+      </tr>
+
+       <tr >
+        <th class="name">Живот</th>
+        <th class="price">2000</th>
+        <th class="price">3000</th>
+      </tr>
+
+       <tr >
+        <th class="name">Усики</th>
+        <th class="price">500</th>
+        <th class="price">700</th>
+      </tr>
+
+       <tr >
+        <th class="name">Лицо</th>
+        <th class="price">2500</th>
+        <th class="price">3500</th>
+      </tr>
+
+       <tr >
+        <th class="name">Подмышки</th>
+        <th class="price">1000</th>
+        <th class="price">1500</th>
+      </tr>
+
+       <tr >
+        <th class="name">Спина</th>
+        <th class="price">3000</th>
+        <th class="price">4000</th>
+      </tr>
+
+       <tr >
+        <th class="name">Ягодицы</th>
+        <th class="price">3000</th>
+        <th class="price">3500</th>
+      </tr>
+
+     
+  </div>
+</div>
+
+ 
+  <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
